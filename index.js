@@ -86,7 +86,7 @@ function eliminarDB(nombreTarea){
       if(elemento.tarea==nombreTarea){
         //console.log(arrayTareas);
         arrayTareas.splice(index,1);
-        //console.log(arrayTareas);
+        
       }
     });
 GuardarBD();
