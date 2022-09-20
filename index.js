@@ -82,9 +82,9 @@ listaTareas.onclick=function(e){
 }
 function eliminarDB(nombreTarea){
     arrayTareas.forEach((elemento,index)=>{
-      //console.log(elemento.tarea+"  "+index);
+      
       if(elemento.tarea==nombreTarea){
-        //console.log(arrayTareas);
+       
         arrayTareas.splice(index,1);
         
       }
